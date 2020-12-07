@@ -13,7 +13,7 @@ set -e
  
 export NAME=${NAME:-"vm-`mktemp -uq XXXXXXXXXX`"}
 export ISO=${ISO:-missing_iso_file_path}
-export MEMMIB=${MEMGIB:-8192}
+export MEMMIB=${MEMMIB:-8192}
 export CPUS=${CPUS:-4}
 export DISKGIB=${DISKGIB:-25}
 export POOL=${POOL:-default}
